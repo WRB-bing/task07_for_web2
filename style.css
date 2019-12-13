@@ -1,0 +1,103 @@
+/*
+* @Author: dell
+* @Date:   2019-12-09 21:37:20
+* @Last Modified by:   dell
+* @Last Modified time: 2019-12-13 20:39:47
+*/
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+ul,li,ol{
+	list-style:none;
+}
+element.style{
+	left: -1350px;
+}
+
+.tips{
+	background-color: gray;
+	position: relative;
+	overflow: hidden;
+}
+.louder{
+	height: 40px;
+	background: gray;
+	display: inline;
+}
+.louder img{
+	float: left;
+	margin-left: 200px;
+	background: gray;
+}
+.words{
+	float: left;
+	margin-left:700px;
+	font-size: 16px;
+}
+
+.box{
+	width: 1200px;
+	height: 380px;
+	border: 1px solid red;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: 1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #ccc;
+	top: 150px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+div{
+	padding: 0;
+	margin: 0;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background: #f00;
+	color: white;
+}
